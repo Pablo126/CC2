@@ -4,11 +4,11 @@ if(isset($_POST['nombreusuario']))
     include("bd.php");
     $db = new MySQLDB();
     $usuario = $_POST['nombreusuario'];
-    $consulta = "insert into usuarios (id,usuario) values (null,'".$usuario."')";
+    $consulta = "insert into usuarios (id,name) values (null,'".$usuario."')";
     $result = $db->consulta($consulta);
     if ($result = true)
     {
-    header('Location: index5.php');
+    header('Location: index.php');
     }
     else
     {
