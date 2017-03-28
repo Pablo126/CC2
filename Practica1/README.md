@@ -20,7 +20,6 @@ La primera vez que utilizamos OpenNebula es necesario realizar unos pasos indica
 1. Conexión por medio de ssh
 ```
 ssh mcc154722800@docker.ugr.es
-//contraseña=CC.2017pw
 ```
 2. Información de autenticación
 ```
@@ -149,7 +148,7 @@ Para configurar la máquina virtual en OpenNebula deberemos de seguir los mismos
 A continuación apareceran todos los comandos que debemos poner para crearla, aunque la explicación detallada se puede encontrar en la creación de la MV1.
 
 ```
-ssh mccDNI@docker.ugr.es //CC.2017pw
+ssh mccDNI@docker.ugr.es
 onetemplate create --name "CentOS-7-BD" --cpu 1 --vcpu 1 --memory 1024 --arch x86_64 --disk 19 --nic 212 --vnc --ssh --net_context
   ID: 631
 onetemplate instantiate 631
