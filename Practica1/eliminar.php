@@ -8,7 +8,7 @@ if(isset($_GET['id']))
     $result = $db->consulta($consulta);
     if ($result = true)
     {
-    header('Location: index5.php');
+    header('Location: index.php');
     }
     else
     {
