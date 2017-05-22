@@ -10,6 +10,8 @@
 
 > Email: pablo12614@correo.ugr.es
 
+> Github: https://github.com/Pablo126/CC2/
+
 #### Preparación
 
 Para realizar la práctica se han creado los códigos en local y se han subido por medio de FTP a la carpeta de usuario.
